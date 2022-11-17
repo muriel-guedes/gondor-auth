@@ -1,0 +1,7 @@
+[package]
+name = "gondor-auth"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gondor-io = { git = "https://github.com/muriel-guedes/gondor-io" }
