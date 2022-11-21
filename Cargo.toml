@@ -1,7 +1,18 @@
+[[example2]]
+
 [package]
 name = "gondor-auth"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+percent-encoding = "2.2.0"
+rust-crypto = "0.2.36"
+rand = "0.8.5"
+
+[dev-dependencies]
 gondor-io = { git = "https://github.com/muriel-guedes/gondor-io" }
+
+[features]
+default = ["google"]
+google = []

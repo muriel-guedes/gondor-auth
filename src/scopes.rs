@@ -1,0 +1,1 @@
+pub struct Scope(pub &'static str);

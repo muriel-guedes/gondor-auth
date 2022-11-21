@@ -1,0 +1,1 @@
+pub const OPENID: crate::Scope = crate::Scope("openid");
